@@ -24,14 +24,39 @@
     </div>
     
     <div class="my_merge"></div>
-    <div class="bg-light rounded-3 border">
+    <div class="bg-light rounded-3 border d-flex">
+      <div class="bg-light justify-content-center" style="margin: 5%;">
+        <i><b>CATEGORIA</b></i>
+        <div class="my_merge"></div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="main_categoria_CremaCheckBox">
+          <label class="form-check-label" for="flexCheckDefault">
+            Crema
+          </label>
+        </div>
+        <div class="my_merge"></div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="main_categoria_SkinCareCheckBox">
+          <label class="form-check-label" for="flexCheckDefault">
+            SkinCare
+          </label>
+        </div>
+        <div class="my_merge"></div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="main_categoria_LabialesCheckBox">
+          <label class="form-check-label" for="flexCheckDefault">
+            Labiales
+          </label>
+        </div>
+      </div>
+
       <header class="py-3 mb-3 border-bottom divi">
           <div class="container-fluid d-grid gap-3" style="grid-template-columns:2fr;">
             <div class="d-flex" style="margin: 2%;"> 
               <form class="w-100 me-3" role="search">
                 <input type="search" class="form-control searchbar" placeholder="Search..." aria-label="Search"> 
               </form>
-              <button type="button" class="btn btn-outline-primary searchbutton">Buscar</button>
+              <button type="button" class="btn btn-outline-primary searchbutton" id="main_search_button">Buscar</button>
             </div>
           </div>
           <div class="bg-light border rounded-3 my_merge">
