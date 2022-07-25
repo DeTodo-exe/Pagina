@@ -22,6 +22,9 @@ def cart():
 def billindetails():
     return render_template("billindetails.html")
 
+@app.route("/webpay")
+def webpay():
+    return render_template("webpay.html")
 
 if __name__ == '__main__': 
     app.run(debug=True)
