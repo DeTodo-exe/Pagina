@@ -127,8 +127,9 @@
                   </ul>
                 </nav>
               </div>
+              {% else %}
+                {% block productos %} {% endblock %}
               {% endif %}
-              {% block productos %} {% endblock %}
           </div>
       </header>
     </div>
