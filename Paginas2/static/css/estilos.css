@@ -37,3 +37,11 @@
         shape-margin: 4%;
 
   }
+  .encabezadowebpay {
+    background-color: rgb(218, 218, 218);
+
+}
+.cajablanca {
+    background-color: white;
+    box-shadow: 10% 5% 5% black;
+}
