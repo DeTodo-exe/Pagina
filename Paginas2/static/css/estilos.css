@@ -1,0 +1,39 @@
+.divi {
+    margin-right: 18rem;
+    margin-bottom: 5px;
+    margin-left: 18rem;
+  }
+
+  .my_merge {
+
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .row {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+  .my_merge2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+  }
+      
+  .lista_productos {
+        width: 30%;
+        height: auto;
+
+  }
+  .wepayosiosi {
+            background-color: rgba(247, 242, 214, 0.938);
+            width: auto;
+            height: auto;
+
+  }
+  .carrito_compras {
+        background-color: beige;
+        shape-margin: 4%;
+
+  }
