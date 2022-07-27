@@ -10,6 +10,10 @@ def inicio():
 def productos():
     return render_template("productos.html")
 
+@app.route("/productos/producto")
+def producto():
+    return render_template("producto.html")
+
 @app.route("/login")
 def login():
     return render_template("login.html")
